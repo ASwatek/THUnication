@@ -1,0 +1,28 @@
+.button {
+    -fx-background-color: #13365B;
+    -fx-text-fill: white;
+    -fx-font-family: Calibri;
+    -fx-font-size: 18;
+}
+
+.Text {
+    -fx-font-family: Calibri;
+    -fx-font-size: 16;
+}
+
+.ApplicationUserText {
+    -fx-font-family: Calibri;
+}
+
+.list-view {
+    -fx-selection-bar: #13365B;
+    -fx-selection-bar-non-focused: #13365B;
+}
+
+.text-field:focused,
+.text-area:focused,
+.list-view:focused,
+.check-box:focused {
+    -fx-focus-color: #13365B;
+}
+

@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+div, span, p {
+    font-family: Calibri, serif;
+}
+
+.message {
+    padding: 5px 10px;
+    margin: 5px 0;
+}
+
+.message.teacher {
+    background-color: #1f2d44;
+    color: #fff;
+}
+
+.teacher .time, .teacher p, .teacher .username {
+    color: #fff;
+}
+
+.message.teacher a {
+    color: cornflowerblue;
+}
+
+span.username {
+    color: #222222;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.teacher .username:after {
+    content: "Teacher";
+    margin-left: 5px;
+    background-color: #1e273d;
+    color: #ffffff;
+    padding: 3px;
+    font-size: 15px;
+    border-radius: 2px;
+}
+
+span.time {
+    float: right;
+}
+
+p {
+    clear: both;
+}
+
+blockquote {
+    margin-left: 0;
+    padding: 0 1em;
+    color: #6a737d;
+    border-left: .25em solid #dfe2e5;
+}
+
+img {
+    max-width: 100%;
+    max-height: 400px;
+}
